@@ -16,12 +16,12 @@
       color: rgb(74, 217, 200);
       padding: 1rem 1.2rem;
       &:hover {
-          background-color: aquamarine;
+          background-color: rgb(74, 217, 200);
           color: rgb(35,31,32);
 
       }
       &.active {
-        background-color: aquamarine;
+        background-color: rgb(74, 217, 200);
         color: rgb(35,31,32);
         font-weight: bold;
       }

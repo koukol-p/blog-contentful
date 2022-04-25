@@ -3,4 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {nextConfig, sassOptions: {
+  prependData: `@import "styles/theme.scss";`
+}}

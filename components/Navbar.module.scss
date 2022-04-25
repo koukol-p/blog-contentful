@@ -4,25 +4,26 @@
   flex-direction: row;
   justify-content: space-between;
 
-  background-color: rgb(35, 31, 32);
+    background-color: $theme-dark;
 
   .brand {
-    color: rgb(74, 217, 200);
+    color: $theme-cyan;
+    
     font-weight: bold;
     padding-left: 1.5rem;
     align-self: center;
   }
   .navItem {
-      color: rgb(74, 217, 200);
+      color: $theme-cyan;
       padding: 1rem 1.2rem;
       &:hover {
-          background-color: rgb(74, 217, 200);
-          color: rgb(35,31,32);
+          background-color: $theme-cyan;
+          color: $theme-dark;
 
       }
       &.active {
-        background-color: rgb(74, 217, 200);
-        color: rgb(35,31,32);
+        background-color: $theme-cyan;
+        color: $theme-dark;
         font-weight: bold;
       }
   }

@@ -1,34 +1,36 @@
 .navbar {
-  width: 100vw;
   display: flex;
+  width: 100vw;
   flex-direction: row;
   justify-content: space-between;
-
-    background-color: $theme-dark;
+  background-color: $theme-dark;
+  position: fixed;
+  z-index: 90;
+  padding: 0 1.5rem;
 
   .brand {
     color: $theme-cyan;
-    
+
     font-weight: bold;
-    padding-left: 1.5rem;
+
     align-self: center;
   }
-  .navItem {
-      color: $theme-cyan;
-      padding: 1rem 1.2rem;
-      &:hover {
-          background-color: $theme-cyan;
-          color: $theme-dark;
 
-      }
-      &.active {
-        background-color: $theme-cyan;
-        color: $theme-dark;
-        font-weight: bold;
-      }
+  .navItem {
+    color: $theme-cyan;
+    padding: 1rem 1rem;
+    &:hover {
+      background-color: $theme-cyan;
+      color: $theme-dark;
+    }
+    &.active {
+      background-color: $theme-cyan;
+      color: $theme-dark;
+      font-weight: bold;
+    }
   }
   .links {
-      display: flex;
-      flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
 }

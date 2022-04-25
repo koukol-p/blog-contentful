@@ -1,30 +1,25 @@
 .navbar {
   display: flex;
-  width: 100vw;
-  flex-direction: row;
   justify-content: space-between;
-  background-color: $theme-dark;
-  position: fixed;
+  background-color: $theme-blue;
+  border: 2px solid black;
   z-index: 90;
   padding: 0 1.5rem;
 
-  .brand {
-    color: $theme-cyan;
+  grid-area: header;
 
+  .brand {
     font-weight: bold;
 
     align-self: center;
   }
 
   .navItem {
-    color: $theme-cyan;
     padding: 1rem 1rem;
     &:hover {
-      background-color: $theme-cyan;
       color: $theme-dark;
     }
     &.active {
-      background-color: $theme-cyan;
       color: $theme-dark;
       font-weight: bold;
     }

@@ -7,11 +7,8 @@ export default function Posts({posts}) {
         <div className={classes.postsContainer}>
             {posts.map(post => {
                 return(
-                <>
                 <PostCard key={post.sys.id} post={post}/>
-                <PostCard key={post.sys.id} post={post}/>
-                <PostCard key={post.sys.id} post={post}/>
-                </>)
+            )
             })}
             
             

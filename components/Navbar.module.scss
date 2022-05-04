@@ -1,10 +1,10 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: $theme-blue;
-  border: 2px solid black;
+  background-color: $theme-dark;
   z-index: 90;
   padding: 0 1.5rem;
+  color: $theme-cyan;
 
   grid-area: header;
 
@@ -16,10 +16,14 @@
 
   .navItem {
     padding: 1rem 1rem;
+    min-width: 92px;
+    text-align: center;
     &:hover {
       color: $theme-dark;
+      background-color: $theme-cyan;
     }
     &.active {
+      background-color: $theme-cyan;
       color: $theme-dark;
       font-weight: bold;
     }

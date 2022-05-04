@@ -1,14 +1,15 @@
 .postcard {
-    border: 1px solid black;
-    border-radius: 6px;
-    margin: 1rem;
-    padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin: 0.33rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid black;
 
-    background-color: rgb(127, 239, 226);
-    transition: all .2s ease-in-out;
-    cursor: pointer;
-    &:hover {
-        transform: scale(1.02);
-
-    }
+  background-color: $theme-offwhite;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+  }
 }

@@ -5,11 +5,12 @@
     grid-template-areas:
         'header'
         'main';
+        
     height: 100vh;
-
+    max-width: 100vw;
 
     background-color: rgb(235,240,240);
-    max-width: 100vw;
+    
     .content {
         overflow-y: auto;
         grid-area: main;
